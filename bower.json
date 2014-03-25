@@ -4,7 +4,8 @@
   "main": [
     "lib/karuselo.js",
     "lib/animate.css",
-    "lib/karuselo.css"
+    "lib/karuselo.css",
+    "lib/jquery210.js"
   ],
   "ignore": [
     "LICENSE",
@@ -12,8 +13,5 @@
     "**/*.html",
     "bower_components/",
     "res/"
-  ],
-  "dependencies": {
-    "jquery": "http://github.com/jquery/jquery.git#2.1.0"
-  }
+  ]
 }
