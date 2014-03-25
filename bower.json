@@ -10,7 +10,8 @@
     "LICENSE",
     "**/*.md",
     "**/*.html",
-    ""
+    "bower_components/",
+    "res/"
   ],
   "dependencies": {
     "jquery": "http://github.com/jquery/jquery.git#2.1.0"
