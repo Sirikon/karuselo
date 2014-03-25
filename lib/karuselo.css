@@ -1,0 +1,32 @@
+div.kr-carousel {
+	position: relative;
+	overflow: hidden;
+}
+
+div.kr-carousel div.kr-slide {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	opacity: 0;
+}
+
+div.kr-carousel div.kr-slide.active {
+	opacity: 1;
+	z-index: 10;
+}
+
+div.kr-carousel div.kr-slide.removing {
+	opacity: 1;
+	z-index: 9;
+}
+
+div.kr-controls {
+	position: relative;
+	z-index: 30;
+}
