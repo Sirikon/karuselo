@@ -52,9 +52,7 @@ If you put kr-next and kr-prev buttons into a div.kr-controls, the buttons will 
   </div>
   ```
 
-**kr-anims**: (Only effective when kr-slides-by-page is 1) Sets the classes that will be added to the sliders depending the situation, 4 values are inLeft, inRight, outLeft and outRight animations, 2 values are in and out animations.
-
-This will show a slider with 3 sliders
+**kr-anims**: (Only effective when kr-slides-by-page is 1) Sets the classes that will be added to the slides depending the situation, 4 values are inLeft, inRight, outLeft and outRight animations, 2 values are in and out animations.
 
   
   ```html
