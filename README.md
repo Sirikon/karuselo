@@ -19,7 +19,7 @@ You can download one by one this files or use bower (Using bower will download a
   bower install http://github.com/Sirikon/karuselo.git
   ```
   
-Then you are ready to set the 'kr-carousel' class to any div element, create some sliders and 'next'/'prev' buttons this way:
+Then you are ready to set the 'kr-carousel' class to any div element, create some slides and 'next'/'prev' buttons this way:
 
   ```html
   <div class="kr-carousel">
@@ -38,7 +38,7 @@ Then you are ready to set the 'kr-carousel' class to any div element, create som
 	
 This will create a carousel with the dimensions you want and where you want.
 
-If you put kr-next and kr-prev buttons into a div.kr-controls, the buttons will be always in the same place over the sliders.
+If you put kr-next and kr-prev buttons into a div.kr-controls, the buttons will be always in the same place over the slides.
 
 **NOTE:** kr-next and kr-prev dont include any CSS styling, write your own CSS for better integration in functionality and design with the webpage.
 
@@ -48,7 +48,7 @@ If you put kr-next and kr-prev buttons into a div.kr-controls, the buttons will 
 
   ```html
   <div class="kr-carousel" kr-slides-by-page="3">
-    <!-- This will show a carousel with three sliders -->
+    <!-- This will show a carousel with three slides -->
   </div>
   ```
 
