@@ -1,6 +1,6 @@
 {
   "name": "karuselo",
-  "version": "0.1.0",
+  "version": "0.0.9",
   "main": [
     "lib/karuselo.js",
     "lib/animate.css",
