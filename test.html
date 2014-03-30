@@ -8,8 +8,11 @@
 	<style>
 		#theCarousel {
 			width: 100%;
-			height: 400px;
+			height: 300px;
 			background-color: black;
+		}
+		div.kr-carousel *[kr-slide].active{
+			background-color: red;
 		}
 	</style>
 </head>
@@ -25,16 +28,18 @@
 		<div class="kr-controls">
 			<button class="kr-next">Siguiente</button>
 			<button class="kr-prev">Anterior</button>
+			<div class="kr-navigation"></div>
 		</div>
 	</div>
 
 	<button class="kr-next" kr-ref="#theCarousel">Siguiente</button>
 	<button class="kr-prev" kr-ref="#theCarousel">Anterior</button>
+	<button kr-slide="2" kr-ref="#theCarousel">Carousel 1 Slide 2</button>
 
 	<button class="kr-next" kr-ref="#theCarousel2">Siguiente</button>
 	<button class="kr-prev" kr-ref="#theCarousel2">Anterior</button>
 
-	<div class="kr-carousel" kr-interval="1000" kr-slides-by-page="5" kr-anims="fadeInLeft fadeInRight fadeOutLeft fadeOutRight" style="height:300px;" id="theCarousel2">
+	<div class="kr-carousel" kr-interval="1000" kr-slides-by-page="3" kr-anims="fadeInLeft fadeInRight fadeOutLeft fadeOutRight" style="height:300px;" id="theCarousel2">
 		<div class="kr-slide" kr-image="res/photo1.jpg"></div>
 		<div class="kr-slide" kr-image="res/photo2.jpg"></div>
 		<div class="kr-slide" kr-image="res/photo3.jpg"></div>
