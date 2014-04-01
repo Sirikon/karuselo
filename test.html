@@ -11,8 +11,18 @@
 			height: 300px;
 			background-color: black;
 		}
-		div.kr-carousel *[kr-slide].active{
+		div.kr-carousel *[kr-slide].active_slider{
 			background-color: red;
+		}
+		div.kr-carousel *[kr-slide] span{
+			color: white;
+			font-size: 20px;
+			display: none;
+		}
+		div.kr-carousel *[kr-slide].active_slider span{
+			color: white;
+			font-size: 20px;
+			display: inline-block;
 		}
 	</style>
 </head>
@@ -39,12 +49,22 @@
 	<button class="kr-next" kr-ref="#theCarousel2">Siguiente</button>
 	<button class="kr-prev" kr-ref="#theCarousel2">Anterior</button>
 
-	<div class="kr-carousel" kr-interval="1000" kr-slides-by-page="3" kr-anims="fadeInLeft fadeInRight fadeOutLeft fadeOutRight" style="height:300px;" id="theCarousel2">
-		<div class="kr-slide" kr-image="res/photo1.jpg" kr-slide="0" kr-ref="#theCarousel"></div>
-		<div class="kr-slide" kr-image="res/photo2.jpg" kr-slide="1" kr-ref="#theCarousel"></div>
-		<div class="kr-slide" kr-image="res/photo3.jpg" kr-slide="2" kr-ref="#theCarousel"></div>
-		<div class="kr-slide" kr-image="res/photo4.jpg" kr-slide="3" kr-ref="#theCarousel"></div>
-		<div class="kr-slide" kr-image="res/photo5.jpg" kr-slide="4" kr-ref="#theCarousel"></div>
+	<div class="kr-carousel" kr-slides-by-page="3" kr-anims="fadeInLeft fadeInRight fadeOutLeft fadeOutRight" style="height:300px;" id="theCarousel2">
+		<div class="kr-slide" kr-image="res/photo1.jpg" kr-slide="0" kr-ref="#theCarousel">
+			<span>THIS IS ACTIVE</span>
+		</div>
+		<div class="kr-slide" kr-image="res/photo2.jpg" kr-slide="1" kr-ref="#theCarousel">
+			<span>THIS IS ACTIVE</span>
+		</div>
+		<div class="kr-slide" kr-image="res/photo3.jpg" kr-slide="2" kr-ref="#theCarousel">
+			<span>THIS IS ACTIVE</span>
+		</div>
+		<div class="kr-slide" kr-image="res/photo4.jpg" kr-slide="3" kr-ref="#theCarousel">
+			<span>THIS IS ACTIVE</span>
+		</div>
+		<div class="kr-slide" kr-image="res/photo5.jpg" kr-slide="4" kr-ref="#theCarousel">
+			<span>THIS IS ACTIVE</span>
+		</div>
 
 		<div class="kr-controls">
 			<button class="kr-next">Siguiente</button>
